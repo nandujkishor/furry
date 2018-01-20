@@ -1,0 +1,25 @@
+---
+layout: post
+title: Sieve of Eratosthenes
+categories: Number Theory
+---
+{{ page.title }}
+================
+Implementation of Sieve of Eratosthenes. If ~~~~n~~~~ is prime, ~~~~pon[n-2] = 0~~~~
+
+~~~~
+bool pon[60];
+
+//sieve algorithm implementation
+int sieve(int n) {
+    int i, j;
+    for (i = 0;i < n;i++) {
+        if (!pon[i]) {
+            for (j = 2;(i+2)*j < n;j++) {
+                pon[(i+2)*j - 2] = 1;
+            }
+        }
+    }
+    return 1;
+}
+~~~~
