@@ -1,1 +1,3 @@
 permalink: /:categories/:website/:problemset/:title/
+collections:
+- solution
