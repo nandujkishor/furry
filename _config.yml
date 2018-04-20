@@ -1,1 +1,1 @@
-permalink: /:categories/:title/
+permalink: /:categories/:website/:problemset/:title/
