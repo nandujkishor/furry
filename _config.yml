@@ -1,3 +1,4 @@
 collections:
-  solution:
+  solutions:
     output: true
+    permalink: /problemset/problem/:name
