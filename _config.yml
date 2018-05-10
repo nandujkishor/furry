@@ -1,5 +1,2 @@
 collections:
-- solution:
-    defaults:
-      values:
-        layout: solution
+- solution
