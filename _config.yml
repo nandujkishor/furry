@@ -1,2 +1,3 @@
 collections:
-- solution
+  solution:
+    output: true
