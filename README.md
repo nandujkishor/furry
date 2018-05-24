@@ -1,2 +1,2 @@
-# furry
-Documentation
+# Flannel
+Creating better editorials collectively.
