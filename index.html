@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Furry
+title: Flannel
 ---
 
 <div id="home">
-  <p>Welcome to Furry. Furry contains the basic requirements for a competitive programmer and acts as a reference material or a documentation. </p>
+  <p>Flannel contains solutions with explanations to selected solved problems. </p>
   <ul class="posts">
-    {% for post in site.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% for post in site.solutions %}
+      <li><a href="{{ solutions.url }}">{{ solutions.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
